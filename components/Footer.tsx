@@ -91,7 +91,7 @@ const Footer = () => {
             Reach out to me today and let&apos;s discuss how I can help you
             achieve your goals.
           </p>
-          <a href="mailto:sourabhsinghbais52@gmail.com">
+          <a href="mailto:sanyamarora1205@gmail.com">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -103,7 +103,7 @@ const Footer = () => {
 
       <div className="flex flex-col mt-0 md:mt-0 md:flex-row justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light mb-0 md:mb-0">
-          Copyright © 2025 Sourabh Singh Bais
+          Copyright © 2025 Sanyam Arora
         </p>
         <div className="flex items-center gap-2">
           {socialMedia.map((info) => (

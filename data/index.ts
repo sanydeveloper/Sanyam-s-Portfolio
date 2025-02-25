@@ -72,33 +72,31 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Gameonglow website",
-    des: "By this Gameonglow website user can buy skin care products for sports.",
-    img: "/gameon.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/wix.png"],
-    link: "https://www.gameonglow.com/",
+    title: "Automatic Motion Detection",
+    des: "Built an ML model for real-time object detection and classification of vehicles and movement patterns using YOLO and TensorFlow.",
+    img: "/Automation motion.png",
+    iconLists: [],
+    link: "https://github.com/sanydeveloper/YOLO-Project.git",
   },
   {
     id: 2,
-    title: "Chat App",
-    des: "Simplify your Chat and file sharing experience with Sourabh Chat App. Seamlessly connect with colleagues and friends.",
-    img: "/chat.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/firebase.png"],
-    link: "https://sourabh-react-chat-app.netlify.app/",
+    title: "StepWiseMart",
+    des: "AR-Enhanced E-Commerce Platform with Virtual Try-On Feature",
+    img: "/StepWiseMart.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/node.png"],
+    link: "https://github.com/sanydeveloper/StepWiseMart.git",
   },
   {
     id: 3,
-    title: "FileDrive as SaaS platform ",
-    des: "where user can upload, delete,restore their files",
-    img: "/filedrive.png",
+    title: "Farm Bridge App ",
+    des: "A platform enabling direct transaction between farmers and consumers, elimination middlemen for fair pricing",
+    img: "/Farm-Bridge.png",
     iconLists: [
-      "/next.svg",
+      "/re.svg",
       "/tail.svg",
-      "/ts.svg",
-      "/clerk.png",
-      "/convex.png",
+      "/ts.svg"
     ],
-    link: "https://filestdrive-sourabh-singh-bais.vercel.app/",
+    link: "https://github.com/sanydeveloper/Farm-Bridge-App.git",
   },
   {
     id: 4,
@@ -107,47 +105,39 @@ export const projects = [
     img: "/stack.png",
     iconLists: ["/js.png"],
     link: "https://sourabh-stack-tower-game.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "News Website",
-    des: "Build in Reactjs tech stack",
-    img: "/stack.png",
-    iconLists: ["/js.png"],
-    link: "https://sourabh-stack-tower-game.netlify.app/",
-  },
+  }
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Sourabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sourabh enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sourabh is the ideal partner.",
-    name: "Kamal Sharma",
-    title: "Director of Gameonglow",
+      "Sanyam's problem-solving skills and ability to adapt to new challenges made him a valuable asset to our team.",
+    name: "Manish Kumar",
+    title: "Project Manager at GoodTechMind",
   },
   {
     quote:
-      "Collaborating with Sourabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sourabh enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sourabh is the ideal partner.",
-    name: "Kamal Sharma",
-    title: "Director of Gameonglow",
+      "During the internship, Sanyam showcased a strong analytical mindset and a keen eye for optimization, significantly improving our project workflows.",
+  name: "Manish Kumar",
+    title: "Project Manager at GoodTechMind",
   },
   {
     quote:
-      "Collaborating with Sourabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sourabh enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sourabh is the ideal partner.",
-    name: "Kamal Sharma",
-    title: "Director of Gameonglow",
+      "Sanyam demonstrated exceptional dedication and technical expertise, consistently delivering high-quality solutions.",
+    name: "Manish Kumar",
+    title: "Project Manager at GoodTechMind",
   },
   {
     quote:
-      "Collaborating with Sourabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sourabh enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sourabh is the ideal partner.",
-    name: "Kamal Sharma",
-    title: "Director of Gameonglow",
+      "With his proactive approach and eagerness to learn, Sanyam quickly adapted to our work environment and contributed meaningfully to our projects.",
+    name: "Manish Kumar",
+    title: "Project Manager at GoodTechMind",
   },
   {
     quote:
-      "Collaborating with Sourabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sourabh enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sourabh is the ideal partner.",
-    name: "Kamal Sharma",
-    title: "Director of Gameonglow",
+      "Sanyam's attention to detail and strong grasp of data-driven decision-making were evident in the projects he handled during his internship.",
+    name: "Manish Kumar",
+    title: "Project Manager at GoodTechMind",
   },
 ];
 
@@ -279,41 +269,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Web Developer Intern",
-    desc: "Designed and developed website for both Desktop & Mobile platforms for Goameonglow.",
+    title: "Full Stack Web Developer Intern",
+    desc: "Designed and developed a website for both Desktop & Mobile platforms for DotSquare Pvt. Ltd. .",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Full Stack Developer",
-    desc: "Developed and maintained user-facing features using modern web technologies for Dotsquare company.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  }
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/thedarkking01",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: "https://x.com/Sourabh05743314",
+    link: "https://github.com/sanydeveloper",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sourabh-singh-bais/",
+    link: "https://linkedin.com/in/sanyam-arora-270a59223",
   },
 ];

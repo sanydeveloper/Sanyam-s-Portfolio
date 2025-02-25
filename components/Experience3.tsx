@@ -80,48 +80,20 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Web Developer Intern",
+    title: "Full Stack Web Developer Intern",
     description: (
       <>
         Designed and developed a website for both Desktop & Mobile platforms for
-        Goameonglow.
+        DotSquare Pvt. Ltd. .
         <br />
         <samp className="text-cyan-400">Link</samp>
       </>
     ),
     // thumbnail: "path/to/thumbnail2.jpg",
-    link: "https://www.gameonglow.com/",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    description: (
-      <>
-        Led the development of a mobile app for a client, from initial concept
-        to deployment on app stores.
-        <br />
-        <samp className="text-cyan-400">Link</samp>
-      </>
-    ),
-
-    // thumbnail: "path/to/thumbnail3.jpg",
-    link: "",
-  },
-  {
-    id: 4,
-    title: "Full Stack Developer",
-    description: (
-      <>
-        Developed and maintained user-facing features using modern web
-        technologies for Dotsquare company.
-        <br />
-        <samp className="text-cyan-400">Link</samp>
-      </>
-    ),
-
-    // thumbnail: "path/to/thumbnail4.jpg",
     link: "https://www.dotsquares.com/",
   },
+
+
   {
     id: 5,
     title: "Hackathon Experince",
@@ -134,7 +106,7 @@ export const workExperience = [
     ),
 
     // thumbnail: "path/to/thumbnail4.jpg",
-    link: "https://unstop.com/certificate-preview/c2ee61f3-cbc8-4c1a-a6f1-fa2c79692f55?utm_campaign=site-emails",
+    link: "https://unstop.com/certificate-preview/7090600c-f2ee-4fc7-9ca8-45c2916b2331?utm_campaign=site-emails",
   },
 ];
 
